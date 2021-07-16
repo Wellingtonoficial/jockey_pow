@@ -10,19 +10,19 @@ gerar.addEventListener('click', function(){
 
 	if (numAleatorio == 0) {
 
-		document.getElementById("localImg").src="pedra.png"
+		document.getElementById("localImg").src="imgs/pedra.png"
 
 		numAleatorio = ""
 	}
 	else if(numAleatorio == 1){
 
-		document.getElementById("localImg").src="papel.png"
+		document.getElementById("localImg").src="imgs/papel.png"
 
 		numAleatorio = ""
 	}
 	else if(numAleatorio == 2){
 
-		document.getElementById("localImg").src="tesoura.png"
+		document.getElementById("localImg").src="imgs/tesoura.png"
 
 		numAleatorio = ""
 	}
@@ -32,5 +32,5 @@ gerar.addEventListener('click', function(){
 let voltar = document.getElementById("voltar")
 
 voltar.addEventListener('click', function(){
-	document.getElementById("localImg").src="jogo.png"
+	document.getElementById("localImg").src="imgs/jogo.png"
 })
