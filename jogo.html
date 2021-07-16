@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html,body{
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		#container{
+			width: 600px;
+			height: 600px;
+			text-align: center;
+		}
+		#container #subContainer{
+			margin: 0 auto;
+			width: 500px;
+			height: 500px;
+			
+		}
+		button{
+			width: 150px;
+			height: 40px;
+			border: none;
+			border: solid 2px red;
+			border-radius: 10px;
+			background: none;
+			cursor: pointer;
+			transition: .3s ease-in-out;
+			font-weight: bold;
+			font-size: 1.3em;
+
+		}
+		button:hover{
+			background: red;
+		}
+	</style>
+	<script src="string.js" defer></script>
+</head>
+<body>
+
+	
+	<div id="container">
+		<div id="subContainer">
+			<img src="controle.png" id="localImg" width="500px">
+		</div>
+		<button id="gerar">Jogar</button>
+		<button id="voltar"><a href="index.html">Voltar</a></button>
+	</div>
+
+</body>
+</html>
